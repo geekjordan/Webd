@@ -23,18 +23,6 @@ int main(){
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
     #endif
-    int t;
-    ci(t)
-    while(t--){
-        string s;
-        ci(s)
-        int x=s.size(),cnt=0;
-        fo(i,x/2){
-            if(s[i] != s[x-i-1])
-                cnt+=abs(s[i]-s[x-i-1]);
-        }
-        co(cnt)
-    }
 	return 0;
 
 }
